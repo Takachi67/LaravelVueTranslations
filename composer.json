@@ -1,0 +1,27 @@
+{
+    "name": "takachi67/laravel-vue-translations",
+    "description": "Use laravel translations in your vue components",
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "illuminate/support": "^8.61"
+    },
+    "autoload": {
+        "psr-4": {
+            "Takachi67\\LaravelVueTranslations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Hebinger",
+            "email": "lucashebinger67@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Takachi67\\LaravelVueTranslations\\Providers\\LocalizationServiceProvider"
+            ]
+        }
+    }
+}
